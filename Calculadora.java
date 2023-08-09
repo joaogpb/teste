@@ -21,7 +21,7 @@ public class Calculadora {
     public double Potencia(int g1, int g2){
         return g1 ^ g2;
     }
-    public double Potencia(int g1){
+    public double Raiz(int g1){
         return g1 ^ (1/2);
     }
     @Test
@@ -33,7 +33,7 @@ public class Calculadora {
         Assertions.assertEquals(Multiplicar(9, 3), 27);
         Assertions.assertEquals(Dividir(80, 2), 40);
         Assertions.assertEquals(Potencia(12, 2), 144);
-        Assertions.assertEquals(Potencia(25, 1/2), 5);
+        Assertions.assertEquals(Raiz(25, 1/2), 5);
 
     }
 
